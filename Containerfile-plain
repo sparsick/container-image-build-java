@@ -1,6 +1,5 @@
-FROM docker.io/eclipse-temurin:17.0.1_12-jre
+FROM gcr.io/distroless/java17-debian11
 WORKDIR /application
 EXPOSE 8080
 COPY *.jar application.jar
-RUN java -Djarmode=layertools -jar application.jar extract
-ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher"]
+ENTRYPOINT ["java", "-jar", "application.jar"]
