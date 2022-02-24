@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build -t sparsick/docker-plain:latest -f Dockerfile-plain .
+docker build -t sparsick/docker-plain:latest -f Containerfile-plain .
