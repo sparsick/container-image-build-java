@@ -1,0 +1,3 @@
+[submodule "spring-boot-app"]
+	path = spring-boot-app
+	url = git@github.com:sparsick/spring-boot-demo.git
