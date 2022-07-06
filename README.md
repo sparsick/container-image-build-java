@@ -2,6 +2,8 @@
 
 This repository demonstrates tools for container image build for Java application.
 
+It is the basic for the [article](https://www.informatik-aktuell.de/entwicklung/methoden/container-images-deep-dive-101-wege-zum-bauen-und-bereitstellen.html) "Container Images Deep Dive" (in German)
+
 ## CLI tools
 
 * Docker Plain
